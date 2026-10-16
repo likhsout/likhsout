@@ -1,133 +1,362 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
   <defs>
+    <!-- Background Tech Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="50%" stop-color="#0b101b"/>
       <stop offset="100%" stop-color="#05080f"/>
     </linearGradient>
-    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#00f2fe"/>
-    </linearGradient>
+
+    <!-- Neon Gradients -->
     <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a78bfa"/>
-      <stop offset="100%" stop-color="#818cf8"/>
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#d946ef"/>
+      <stop offset="100%" stop-color="#6366f1"/>
     </linearGradient>
-    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+
+    <linearGradient id="neonCore" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#f5f3ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+
+    <linearGradient id="sweepGleam" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67e8f9" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;150%" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;250%" dur="3.5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="glowWide" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
-    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+
+    <filter id="glowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
-    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <!-- Card Frame -->
-  <rect x="1" y="1" width="998" height="398" rx="16" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+  <!-- Outer Card Frame with Tech Grid Border -->
+  <rect x="1" y="1" width="998" height="398" rx="16" fill="url(#bg)" stroke="#1e293b" stroke-width="1.5"/>
 
-  <!-- Left: Terminal Session -->
+  <!-- ============================================== -->
+  <!-- LEFT: INTERACTIVE TERMINAL TYPING ANIMATION    -->
+  <!-- ============================================== -->
   <g transform="translate(25, 25)">
-    <rect width="520" height="350" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
-    <!-- Terminal Header Bar -->
-    <rect width="520" height="36" rx="12" fill="#161b22"/>
-    <rect y="24" width="520" height="12" fill="#161b22"/>
-    <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
-    <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
-    <circle cx="62" cy="18" r="6" fill="#27c93f"/>
-    <text x="260" y="22" fill="#8b949e" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12" text-anchor="middle">bash ~ likhon@automation-box</text>
+    <!-- Window Body -->
+    <rect width="520" height="350" rx="12" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+    
+    <!-- Titlebar -->
+    <rect width="520" height="36" rx="12" fill="#111827"/>
+    <rect y="24" width="520" height="12" fill="#111827"/>
+    <circle cx="22" cy="18" r="5.5" fill="#ef4444"/>
+    <circle cx="40" cy="18" r="5.5" fill="#f59e0b"/>
+    <circle cx="58" cy="18" r="5.5" fill="#10b981"/>
+    <text x="260" y="22" fill="#94a3b8" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12" text-anchor="middle">bash ~ likhon@automation-box</text>
 
-    <!-- Terminal Lines -->
+    <!-- Terminal Content Area -->
     <g font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12.5">
-      <!-- Command 1 -->
-      <text x="24" y="66" fill="#3ddc84">$</text>
-      <text x="40" y="66" fill="#f0f6fc">python3 -m diu_scrapper --parse routine.xlsx</text>
-      
-      <!-- Output 1 -->
-      <text x="24" y="90" fill="#a78bfa">&gt; Reading workbook:</text>
-      <text x="180" y="90" fill="#c9d1d9">3 sheets [Day, Eve, Ramadan]</text>
 
-      <text x="24" y="112" fill="#79c0ff">&gt; Parsing metadata:</text>
-      <text x="180" y="112" fill="#3ddc84">Semester, Dept, Effective Date</text>
+      <!-- Command 1: Type python3 -m diu_scrapper parse routine.xlsx -->
+      <g>
+        <clipPath id="clipTypeCmd1">
+          <rect x="24" y="48" width="0" height="26">
+            <animate attributeName="width"
+                     values="0; 0; 410; 410; 410; 0"
+                     keyTimes="0; 0.02; 0.16; 0.92; 0.98; 1"
+                     dur="12s"
+                     repeatCount="indefinite"/>
+          </rect>
+        </clipPath>
+        <text x="24" y="66" fill="#3ddc84" font-weight="bold">$</text>
+        <g clip-path="url(#clipTypeCmd1)">
+          <text x="40" y="66" fill="#f1f5f9">python3 -m diu_scrapper --parse routine.xlsx</text>
+        </g>
+        <!-- Typing Cursor for Cmd 1 -->
+        <rect x="40" y="52" width="8" height="16" fill="#3ddc84">
+          <animate attributeName="x"
+                   values="40; 40; 425; 425; 425; 40"
+                   keyTimes="0; 0.02; 0.16; 0.19; 0.98; 1"
+                   dur="12s"
+                   repeatCount="indefinite"/>
+          <animate attributeName="opacity"
+                   values="1; 1; 1; 0; 0; 0"
+                   keyTimes="0; 0.02; 0.16; 0.19; 0.98; 1"
+                   dur="12s"
+                   repeatCount="indefinite"/>
+        </rect>
+      </g>
 
-      <text x="24" y="134" fill="#79c0ff">&gt; Normalizing time slots:</text>
-      <text x="215" y="134" fill="#f0f6fc">1,420 class periods mapped</text>
+      <!-- Log 1: Reading workbook -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.18; 0.19; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="90" fill="#a78bfa">&gt; Reading workbook:</text>
+        <text x="180" y="90" fill="#cbd5e1">3 sheets [Day, Eve, Ramadan]</text>
+      </g>
 
-      <text x="24" y="156" fill="#3ddc84">[ OK ]</text>
-      <text x="75" y="156" fill="#c9d1d9">JSON payload generated: routine.json</text>
+      <!-- Log 2: Parsing metadata -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.22; 0.23; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="112" fill="#38bdf8">&gt; Parsing metadata:</text>
+        <text x="180" y="112" fill="#34d399">Semester, Dept, Effective Date</text>
+      </g>
 
-      <!-- Command 2 -->
-      <text x="24" y="188" fill="#3ddc84">$</text>
-      <text x="40" y="188" fill="#f0f6fc">flutter build apk --release</text>
-      <text x="24" y="210" fill="#a5d6ff">&gt; Compiling Watcher &amp; CashBook runtimes...</text>
-      <text x="24" y="232" fill="#3ddc84">[ OK ]</text>
-      <text x="75" y="232" fill="#c9d1d9">Built release/app-release.apk (offline-first)</text>
+      <!-- Log 3: Normalizing slots -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.26; 0.27; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="134" fill="#38bdf8">&gt; Normalizing time slots:</text>
+        <text x="215" y="134" fill="#f8fafc">1,420 class periods mapped</text>
+      </g>
 
-      <!-- Status -->
-      <text x="24" y="266" fill="#38bdf8">&gt; Environment:</text>
-      <text x="145" y="266" fill="#f0f6fc">Python · Flutter · Kotlin · React</text>
+      <!-- Log 4: Payload generated -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.30; 0.31; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="156" fill="#3ddc84" font-weight="bold">[ OK ]</text>
+        <text x="75" y="156" fill="#e2e8f0">JSON payload generated: routine.json</text>
+      </g>
 
-      <text x="24" y="290" fill="#3ddc84">[ READY ]</text>
-      <text x="95" y="290" fill="#3ddc84">All pipelines operational · Zero bloat</text>
+      <!-- Command 2: flutter build apk release -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.34; 0.35; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <clipPath id="clipTypeCmd2">
+          <rect x="24" y="170" width="0" height="26">
+            <animate attributeName="width"
+                     values="0; 0; 270; 270; 270; 0"
+                     keyTimes="0; 0.35; 0.46; 0.92; 0.98; 1"
+                     dur="12s"
+                     repeatCount="indefinite"/>
+          </rect>
+        </clipPath>
+        <text x="24" y="188" fill="#3ddc84" font-weight="bold">$</text>
+        <g clip-path="url(#clipTypeCmd2)">
+          <text x="40" y="188" fill="#f1f5f9">flutter build apk --release</text>
+        </g>
+        <!-- Typing Cursor for Cmd 2 -->
+        <rect x="40" y="174" width="8" height="16" fill="#3ddc84">
+          <animate attributeName="x"
+                   values="40; 40; 285; 285; 285; 40"
+                   keyTimes="0; 0.35; 0.46; 0.50; 0.98; 1"
+                   dur="12s"
+                   repeatCount="indefinite"/>
+          <animate attributeName="opacity"
+                   values="0; 1; 1; 0; 0; 0"
+                   keyTimes="0; 0.35; 0.46; 0.50; 0.98; 1"
+                   dur="12s"
+                   repeatCount="indefinite"/>
+        </rect>
+      </g>
 
-      <!-- Interactive Prompt -->
-      <text x="24" y="324" fill="#a78bfa">likhon@dev</text>
-      <text x="110" y="324" fill="#c9d1d9">:</text>
-      <text x="118" y="324" fill="#79c0ff">~</text>
-      <text x="130" y="324" fill="#3ddc84">$</text>
-      <text x="145" y="324" fill="#f0f6fc">git push origin main</text>
-      <rect x="305" y="312" width="8" height="15" fill="#3ddc84">
-        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-      </rect>
+      <!-- Log 5: Compiling Watcher & CashBook -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.49; 0.50; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="210" fill="#93c5fd">&gt; Compiling Watcher &amp; CashBook runtimes...</text>
+      </g>
+
+      <!-- Log 6: Built release apk -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.53; 0.54; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="232" fill="#3ddc84" font-weight="bold">[ OK ]</text>
+        <text x="75" y="232" fill="#cbd5e1">Built release/app-release.apk (offline-first)</text>
+      </g>
+
+      <!-- Log 7 and 8: Environment & Readiness -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.58; 0.59; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="266" fill="#38bdf8">&gt; Environment:</text>
+        <text x="145" y="266" fill="#f8fafc">Python · Flutter · Kotlin · React</text>
+        <text x="24" y="290" fill="#3ddc84" font-weight="bold">[ READY ]</text>
+        <text x="95" y="290" fill="#3ddc84">All pipelines operational · Zero bloat</text>
+      </g>
+
+      <!-- Command 3: git push origin main with Blinking Cursor -->
+      <g opacity="0">
+        <animate attributeName="opacity"
+                 values="0; 0; 1; 1; 1; 0"
+                 keyTimes="0; 0.63; 0.64; 0.92; 0.98; 1"
+                 dur="12s"
+                 repeatCount="indefinite"/>
+        <text x="24" y="324" fill="#a78bfa">likhon@dev</text>
+        <text x="108" y="324" fill="#94a3b8">:</text>
+        <text x="116" y="324" fill="#38bdf8">~</text>
+        <text x="128" y="324" fill="#3ddc84" font-weight="bold">$</text>
+        <text x="144" y="324" fill="#f8fafc">git push origin main</text>
+        <!-- Blinking active block cursor -->
+        <rect x="304" y="311" width="8" height="16" fill="#3ddc84">
+          <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
     </g>
   </g>
 
-  <!-- Right: Neon Sign Board -->
-  <g transform="translate(570, 35)">
-    <rect width="395" height="330" rx="18" fill="#090d14" stroke="#1f2937" stroke-width="1.5"/>
-    <rect width="395" height="330" rx="18" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.4" filter="url(#glowPurple)"/>
+  <!-- ============================================== -->
+  <!-- RIGHT: CYBERPUNK NEON CARD WITH ANIMATED NAME  -->
+  <!-- ============================================== -->
+  <g transform="translate(570, 25)">
+    <!-- Card Frame -->
+    <rect width="405" height="350" rx="16" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+    
+    <!-- Outer Breathing Neon Accent Border -->
+    <rect width="405" height="350" rx="16" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.4" filter="url(#glowSoft)">
+      <animate attributeName="opacity"
+               values="0.25;0.65;0.3;0.7;0.25"
+               dur="4s"
+               repeatCount="indefinite"/>
+    </rect>
 
-    <!-- Top Neon Bar -->
-    <path d="M 40 18 L 355 18" stroke="url(#neonPurple)" stroke-width="2.5" stroke-linecap="round" filter="url(#glowPurple)"/>
+    <!-- Top Glow Rail with Traveling Energy Spark -->
+    <path d="M 35 16 L 370 16" stroke="url(#neonPurple)" stroke-width="2" stroke-linecap="round" opacity="0.8" filter="url(#glowSoft)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="35" cy="16" r="2.5" fill="#ffffff" filter="url(#glowCyan)">
+      <animate attributeName="cx" values="35;370;35" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
 
-    <!-- Status Chips -->
-    <g transform="translate(35, 45)">
-      <rect width="90" height="24" rx="12" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-width="1"/>
-      <text x="45" y="16" fill="#c4b5fd" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">⚡ ACTIVE</text>
+    <!-- Top Status Badges -->
+    <g transform="translate(35, 42)">
+      <!-- Active Status Badge with Pulsing Purple Pill -->
+      <rect width="92" height="24" rx="12" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="1"/>
+      <text x="46" y="16" fill="#c084fc" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">
+        &#x2039; ACTIVE
+      </text>
+
+      <!-- Bangladesh Pill with Live Indicator -->
+      <g transform="translate(104, 0)">
+        <rect width="115" height="24" rx="12" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1"/>
+        <circle cx="16" cy="12" r="3.5" fill="#10b981" filter="url(#glowSoft)">
+          <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="64" y="16" fill="#34d399" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">
+          BANGLADESH
+        </text>
+      </g>
     </g>
 
-    <g transform="translate(135, 45)">
-      <rect width="110" height="24" rx="12" fill="#3ddc84" fill-opacity="0.12" stroke="#3ddc84" stroke-width="1"/>
-      <text x="55" y="16" fill="#3ddc84" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">🇧🇩 BANGLADESH</text>
+    <!-- ============================================== -->
+    <!-- THE BIG NAME: LIKHON WITH ELECTRIC NEON SIGN   -->
+    <!-- ============================================== -->
+    <g transform="translate(35, 138)">
+
+      <!-- Layer 1: Ambient Neon Atmosphere (Wide Purple Aura) -->
+      <text x="0" y="0" fill="#9333ea" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="900" letter-spacing="4" filter="url(#glowWide)">
+        <!-- Authentic Neon Sign Flicker & Hum Effect -->
+        <animate attributeName="opacity"
+                 values="0.85;0.65;0.95;0.7;0.85;0.95;0.25;0.95;0.88;0.7;0.85"
+                 keyTimes="0;0.18;0.35;0.5;0.65;0.75;0.77;0.8;0.88;0.94;1"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+        LIKHON
+      </text>
+
+      <!-- Layer 2: Radiant Electric Tube Violet Glow -->
+      <text x="0" y="0" fill="#c084fc" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="900" letter-spacing="4" filter="url(#glowSoft)">
+        <animate attributeName="opacity"
+                 values="0.95;0.8;1;0.85;0.95;1;0.35;1;0.95;0.85;0.95"
+                 keyTimes="0;0.18;0.35;0.5;0.65;0.75;0.77;0.8;0.88;0.94;1"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+        LIKHON
+      </text>
+
+      <!-- Layer 3: Energized High-Voltage White Tube Core -->
+      <text x="0" y="0" fill="url(#neonCore)" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="900" letter-spacing="4">
+        <!-- High-voltage micro flicker -->
+        <animate attributeName="opacity"
+                 values="1;0.92;1;0.9;1;0.98;0.45;1;0.96;0.92;1"
+                 keyTimes="0;0.18;0.35;0.5;0.65;0.75;0.77;0.8;0.88;0.94;1"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+        LIKHON
+      </text>
+
+      <!-- Layer 4: Shimmering Holographic Energy Sweep -->
+      <text x="0" y="0" fill="url(#sweepGleam)" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="900" letter-spacing="4">
+        LIKHON
+      </text>
+
+      <!-- Subtitle with Subtle Electric Pulse -->
+      <text x="2" y="32" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1">
+        <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+        @Likhon545466 · Developer &amp; Builder
+      </text>
     </g>
 
-    <!-- Neon Sign: LIKHON -->
-    <g transform="translate(35, 140)">
-      <text x="0" y="0" fill="#a78bfa" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="4" filter="url(#glowPurple)" opacity="0.85">LIKHON</text>
-      <text x="0" y="0" fill="#f5f3ff" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="4">LIKHON</text>
-      <text x="2" y="32" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1">@Likhon545466 · Developer &amp; Builder</text>
-    </g>
+    <!-- Scanning Neon Laser Sweep on Divider -->
+    <line x1="35" y1="195" x2="370" y2="195" stroke="#1e293b" stroke-width="1.5"/>
+    <line x1="35" y1="195" x2="150" y2="195" stroke="#38bdf8" stroke-width="2" filter="url(#glowCyan)">
+      <animate attributeName="x1" values="35;255;35" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="150;370;150" dur="4s" repeatCount="indefinite"/>
+    </line>
 
-    <!-- Accent Divider -->
-    <line x1="35" y1="195" x2="360" y2="195" stroke="#30363d" stroke-width="1"/>
-    <line x1="35" y1="195" x2="160" y2="195" stroke="#38bdf8" stroke-width="2" filter="url(#glowCyan)"/>
+    <!-- Matrix Details -->
+    <g transform="translate(35, 230)" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12">
+      <text x="0" y="0" fill="#94a3b8">&gt; flagship:</text>
+      <text x="95" y="0" fill="#c084fc" font-weight="600">DIU Campus Schedule Parser</text>
 
-    <!-- Matrix -->
-    <g transform="translate(35, 230)" font-family="'SF Mono', Consolas, monospace" font-size="12">
-      <text x="0" y="0" fill="#8b949e">&gt; flagship:</text>
-      <text x="90" y="0" fill="#a78bfa">DIU Campus Schedule Parser</text>
+      <text x="0" y="24" fill="#94a3b8">&gt; toolkit:</text>
+      <text x="95" y="24" fill="#38bdf8">python · flutter · compose · ts</text>
 
-      <text x="0" y="24" fill="#8b949e">&gt; toolkit:</text>
-      <text x="90" y="24" fill="#38bdf8">python · flutter · compose · ts</text>
+      <text x="0" y="48" fill="#94a3b8">&gt; focus:</text>
+      <text x="95" y="48" fill="#34d399">offline-first · automations</text>
 
-      <text x="0" y="48" fill="#8b949e">&gt; focus:</text>
-      <text x="90" y="48" fill="#3ddc84">offline-first · automations</text>
-
-      <text x="0" y="72" fill="#8b949e">&gt; motto:</text>
-      <text x="90" y="72" fill="#f0f6fc">solve real friction with code ✨</text>
+      <text x="0" y="72" fill="#94a3b8">&gt; motto:</text>
+      <text x="95" y="72" fill="#f8fafc">solve real friction with code ✨</text>
     </g>
   </g>
 </svg>

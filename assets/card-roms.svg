@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 272" width="520" height="272">
+  <defs>
+    <linearGradient id="bg_revanced-patches" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c12"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="518" height="270" rx="16" fill="url(#bg_revanced-patches)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Tag Pill -->
+  <g transform="translate(26, 26)">
+    <rect width="124" height="22" rx="11" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-opacity="0.4"/>
+    <text x="62" y="15" fill="#2dd4bf" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="600" text-anchor="middle">🧩 MODDING LAB</text>
+  </g>
+
+  <g transform="translate(420, 30)">
+          <rect width="64" height="64" rx="16" fill="#2dd4bf" fill-opacity="0.12" stroke="#2dd4bf" stroke-width="1.5"/>
+          <circle cx="32" cy="30" r="10" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+          <circle cx="28" cy="28" r="1.5" fill="#2dd4bf"/>
+          <circle cx="36" cy="28" r="1.5" fill="#2dd4bf"/>
+          <line x1="24" y1="20" x2="26" y2="24" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+          <line x1="40" y1="20" x2="38" y2="24" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+        </g>
+
+  <!-- Title -->
+  <text x="26" y="90" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">Android Modding Lab</text>
+
+  <!-- Description -->
+  <text x="26" y="122" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+    <tspan x="26" dy="0">ReVanced patches, Smali hooks, and bytecode modifications.</tspan>
+    <tspan x="26" dy="20">Experimenting with app internals, patches, and system tweaks.</tspan>
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(26, 185)">
+    <rect x="0" width="72" height="24" rx="12" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-opacity="0.4"/>
+<text x="36" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Kotlin</text><rect x="80" width="64" height="24" rx="12" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-opacity="0.4"/>
+<text x="112" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Smali</text><rect x="152" width="88" height="24" rx="12" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-opacity="0.4"/>
+<text x="196" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Bytecode</text>
+  </g>
+
+  <!-- Bottom Divider & Action -->
+  <line x1="26" y1="228" x2="494" y2="228" stroke="#21262d" stroke-width="1"/>
+  <text x="26" y="248" fill="#7d8590" font-family="'SF Mono', Consolas, monospace" font-size="11">github.com/Likhon545466/revanced-patches</text>
+  <text x="494" y="248" fill="#2dd4bf" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="end">VIEW REPO →</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 272" width="520" height="272">
+  <defs>
+    <linearGradient id="bg_buffer-authenticator" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c12"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="518" height="270" rx="16" fill="url(#bg_buffer-authenticator)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Tag Pill -->
+  <g transform="translate(26, 26)">
+    <rect width="124" height="22" rx="11" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+    <text x="62" y="15" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="600" text-anchor="middle">🔐 OFFLINE 2FA</text>
+  </g>
+
+  <g transform="translate(420, 30)">
+          <rect width="64" height="64" rx="16" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-width="1.5"/>
+          <path d="M 32 18 L 44 24 C 44 38 32 46 32 46 C 32 46 20 38 20 24 Z" fill="none" stroke="#38bdf8" stroke-width="2"/>
+        </g>
+
+  <!-- Title -->
+  <text x="26" y="90" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">Buffer Authenticator</text>
+
+  <!-- Description -->
+  <text x="26" y="122" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+    <tspan x="26" dy="0">Offline, zero-knowledge 2FA Chrome Extension (MV3).</tspan>
+    <tspan x="26" dy="20">Hardware-accelerated AES-256 vault with local WebCrypto.</tspan>
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(26, 185)">
+    <rect x="0" width="104" height="24" rx="12" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+<text x="52" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">TypeScript</text><rect x="112" width="104" height="24" rx="12" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+<text x="164" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Chrome MV3</text><rect x="224" width="96" height="24" rx="12" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+<text x="272" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">WebCrypto</text>
+  </g>
+
+  <!-- Bottom Divider & Action -->
+  <line x1="26" y1="228" x2="494" y2="228" stroke="#21262d" stroke-width="1"/>
+  <text x="26" y="248" fill="#7d8590" font-family="'SF Mono', Consolas, monospace" font-size="11">github.com/Likhon545466/buffer-authenticator</text>
+  <text x="494" y="248" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="end">VIEW REPO →</text>
+</svg>

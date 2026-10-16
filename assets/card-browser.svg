@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 312" width="1000" height="312">
+  <defs>
+    <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c12"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="blueGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="310" rx="16" fill="url(#cbg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Left Content Area -->
+  <g transform="translate(36, 36)">
+    <!-- Category Tag -->
+    <g>
+      <rect width="145" height="24" rx="12" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="72" y="16" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">★ FLAGSHIP PROJECT</text>
+    </g>
+
+    <!-- Project Title -->
+    <text x="0" y="65" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800">Lightweight Browser</text>
+
+    <!-- Subtitle / Description -->
+    <text x="0" y="98" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="14">
+      <tspan x="0" dy="0">Fast, lightweight, and privacy-first Android browser built with Kotlin &amp; Jetpack</tspan>
+      <tspan x="0" dy="22">Compose (Material You M3) with multi-profile isolation and tracker blocking.</tspan>
+    </text>
+
+    <!-- Tech Badges -->
+    <g transform="translate(0, 160)">
+      <!-- Badge 1 -->
+      <rect width="68" height="26" rx="13" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="34" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Kotlin</text>
+
+      <!-- Badge 2 -->
+      <rect x="76" width="135" height="26" rx="13" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="143" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Jetpack Compose</text>
+
+      <!-- Badge 3 -->
+      <rect x="219" width="115" height="26" rx="13" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="276" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Multi-Profile</text>
+
+      <!-- Badge 4 -->
+      <rect x="342" width="130" height="26" rx="13" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="407" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Ad &amp; Tracker Block</text>
+
+      <!-- Badge 5 -->
+      <rect x="480" width="75" height="26" rx="13" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="517" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Room DB</text>
+    </g>
+
+    <!-- Metrics Bar -->
+    <g transform="translate(0, 222)" font-family="'SF Mono', Consolas, monospace">
+      <text x="0" y="0" fill="#7d8590" font-size="11">SIZE</text>
+      <text x="0" y="24" fill="#38bdf8" font-size="18" font-weight="700">~2.0 MB</text>
+
+      <text x="120" y="0" fill="#7d8590" font-size="11">RELEASES</text>
+      <text x="120" y="24" fill="#a5b4fc" font-size="18" font-weight="700">v1.0.6</text>
+
+      <text x="240" y="0" fill="#7d8590" font-size="11">PRIVACY</text>
+      <text x="240" y="24" fill="#3ddc84" font-size="18" font-weight="700">Zero Telemetry</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <rect x="660" y="30" width="1" height="252" fill="#30363d"/>
+
+  <!-- Right: Phone Illustration -->
+  <g transform="translate(740, 20)">
+    <!-- Phone Outer Body -->
+    <rect width="180" height="270" rx="28" fill="#030712" stroke="#334155" stroke-width="2.5"/>
+    <!-- Phone Screen -->
+    <rect x="8" y="8" width="164" height="254" rx="22" fill="url(#phoneScreen)"/>
+    <!-- Camera Notch -->
+    <circle cx="90" cy="18" r="4" fill="#0f172a"/>
+
+    <!-- URL Bar -->
+    <rect x="18" y="32" width="144" height="24" rx="12" fill="#1e293b"/>
+    <circle cx="30" cy="44" r="5" fill="#3ddc84" opacity="0.8"/>
+    <text x="42" y="48" fill="#94a3b8" font-family="'SF Mono', Consolas, monospace" font-size="10">https://duckduckgo</text>
+
+    <!-- Multi-Profile Tab Chips -->
+    <g transform="translate(18, 68)">
+      <rect width="40" height="18" rx="9" fill="#38bdf8" fill-opacity="0.3"/>
+      <text x="20" y="13" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="9" text-anchor="middle">Work</text>
+
+      <rect x="46" width="46" height="18" rx="9" fill="#ff6ac1" fill-opacity="0.3"/>
+      <text x="69" y="13" fill="#ff6ac1" font-family="'SF Mono', Consolas, monospace" font-size="9" text-anchor="middle">Personal</text>
+      
+      <rect x="98" width="46" height="18" rx="9" fill="#3ddc84" fill-opacity="0.3"/>
+      <text x="121" y="13" fill="#3ddc84" font-family="'SF Mono', Consolas, monospace" font-size="9" text-anchor="middle">Privacy</text>
+    </g>
+
+    <!-- Shield Icon in Center -->
+    <g transform="translate(90, 140)">
+      <circle r="36" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+      <path d="M 0 -20 L 16 -12 L 16 6 C 16 16 0 24 0 24 C 0 24 -16 16 -16 6 L -16 -12 Z" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M -6 4 L -1 9 L 8 -2" fill="none" stroke="#3ddc84" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Bottom Audio / Background Playback Pill -->
+    <rect x="18" y="200" width="144" height="42" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="36" cy="221" r="12" fill="#38bdf8" fill-opacity="0.2"/>
+    <polygon points="33,215 42,221 33,227" fill="#38bdf8"/>
+    <text x="56" y="218" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Background Play</text>
+    <!-- Progress Bar -->
+    <rect x="56" y="225" width="94" height="3" rx="1.5" fill="#334155"/>
+    <rect x="56" y="225" width="48" height="3" rx="1.5" fill="#38bdf8">
+      <animate attributeName="width" values="10;90;10" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

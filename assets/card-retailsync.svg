@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 272" width="520" height="272">
+  <defs>
+    <linearGradient id="bg_retailsync" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c12"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="518" height="270" rx="16" fill="url(#bg_retailsync)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Tag Pill -->
+  <g transform="translate(26, 26)">
+    <rect width="164" height="22" rx="11" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-opacity="0.4"/>
+    <text x="82" y="15" fill="#f59e0b" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="600" text-anchor="middle">🏪 WAREHOUSE SYSTEM</text>
+  </g>
+
+  <g transform="translate(420, 30)">
+          <rect width="64" height="64" rx="16" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="1.5"/>
+          <path d="M 20 26 L 32 18 L 44 26 L 32 34 Z" fill="none" stroke="#f59e0b" stroke-width="2"/>
+          <path d="M 20 26 L 20 40 L 32 48 L 32 34" fill="none" stroke="#f59e0b" stroke-width="2"/>
+          <path d="M 44 26 L 44 40 L 32 48" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        </g>
+
+  <!-- Title -->
+  <text x="26" y="90" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">RetailSync</text>
+
+  <!-- Description -->
+  <text x="26" y="122" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+    <tspan x="26" dy="0">Centralized Super Shop Warehouse Management System.</tspan>
+    <tspan x="26" dy="20">Engineered for high-throughput Bangladeshi modern trade retail.</tspan>
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(26, 185)">
+    <rect x="0" width="64" height="24" rx="12" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-opacity="0.4"/>
+<text x="32" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">React</text><rect x="72" width="104" height="24" rx="12" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-opacity="0.4"/>
+<text x="124" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">TypeScript</text><rect x="184" width="88" height="24" rx="12" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-opacity="0.4"/>
+<text x="228" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Tailwind</text>
+  </g>
+
+  <!-- Bottom Divider & Action -->
+  <line x1="26" y1="228" x2="494" y2="228" stroke="#21262d" stroke-width="1"/>
+  <text x="26" y="248" fill="#7d8590" font-family="'SF Mono', Consolas, monospace" font-size="11">github.com/Likhon545466/retailsync</text>
+  <text x="494" y="248" fill="#f59e0b" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="end">VIEW REPO →</text>
+</svg>

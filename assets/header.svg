@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="100%" stop-color="#05080f"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ac1"/>
+      <stop offset="100%" stop-color="#ff1361"/>
+    </linearGradient>
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect x="1" y="1" width="998" height="398" rx="16" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Left: Terminal Window -->
+  <g transform="translate(25, 25)">
+    <!-- Terminal Box -->
+    <rect width="520" height="350" rx="12" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+    <!-- Terminal Header Bar -->
+    <rect width="520" height="36" rx="12" fill="#161b22"/>
+    <rect y="24" width="520" height="12" fill="#161b22"/>
+    <!-- Mac Window Controls -->
+    <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+    <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+    <circle cx="62" cy="18" r="6" fill="#27c93f"/>
+    <!-- Terminal Title -->
+    <text x="260" y="22" fill="#8b949e" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12" text-anchor="middle">fastboot ~ likhon@terminal</text>
+
+    <!-- Terminal Lines -->
+    <g font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13">
+      <!-- Line 1 -->
+      <text x="24" y="66" fill="#3ddc84">$</text>
+      <text x="40" y="66" fill="#f0f6fc">fastboot devices</text>
+      <text x="24" y="88" fill="#8b949e">8fa310d7ce    fastboot</text>
+
+      <!-- Line 2 -->
+      <text x="24" y="118" fill="#3ddc84">$</text>
+      <text x="40" y="118" fill="#f0f6fc">fastboot flash system likhon.img</text>
+      <text x="24" y="140" fill="#79c0ff">Sending 'system' (1024 KB)...</text>
+      <text x="320" y="140" fill="#3ddc84">OKAY [ 0.042s ]</text>
+      <text x="24" y="160" fill="#79c0ff">Writing 'system'...</text>
+      <text x="320" y="160" fill="#3ddc84">OKAY [ 0.128s ]</text>
+
+      <!-- Line 3 -->
+      <text x="24" y="192" fill="#3ddc84">$</text>
+      <text x="40" y="192" fill="#f0f6fc">fastboot reboot</text>
+      <text x="24" y="214" fill="#a5d6ff">&gt; Rebooting to system...</text>
+
+      <!-- Boot log -->
+      <text x="24" y="246" fill="#3ddc84">[ OK ]</text>
+      <text x="75" y="246" fill="#c9d1d9">Mounted /dev/block/bootdevice</text>
+
+      <text x="24" y="268" fill="#3ddc84">[ OK ]</text>
+      <text x="75" y="268" fill="#c9d1d9">Initialized Compose &amp; Flutter runtimes</text>
+
+      <text x="24" y="290" fill="#3ddc84">[ OK ]</text>
+      <text x="75" y="290" fill="#38bdf8">likhon-os v2.6 booted successfully.</text>
+
+      <!-- Prompt with Blinking Cursor -->
+      <text x="24" y="322" fill="#ff7b72">likhon@android</text>
+      <text x="148" y="322" fill="#c9d1d9">:</text>
+      <text x="156" y="322" fill="#79c0ff">~</text>
+      <text x="168" y="322" fill="#3ddc84">$</text>
+      <rect x="180" y="310" width="8" height="15" fill="#3ddc84">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- Right: Neon Sign Board -->
+  <g transform="translate(570, 35)">
+    <!-- Outer Glow Frame -->
+    <rect width="395" height="330" rx="18" fill="#090d14" stroke="#1f2937" stroke-width="1.5"/>
+    <rect width="395" height="330" rx="18" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4" filter="url(#glowCyan)"/>
+
+    <!-- Top Neon Bar -->
+    <path d="M 40 18 L 355 18" stroke="url(#neonCyan)" stroke-width="2.5" stroke-linecap="round" filter="url(#glowCyan)"/>
+
+    <!-- Glowing Brand Chip -->
+    <g transform="translate(35, 45)">
+      <rect width="88" height="24" rx="12" fill="#ff6ac1" fill-opacity="0.12" stroke="#ff6ac1" stroke-width="1"/>
+      <text x="44" y="16" fill="#ff9ccd" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">⚡ ONLINE</text>
+    </g>
+
+    <g transform="translate(135, 45)">
+      <rect width="110" height="24" rx="12" fill="#3ddc84" fill-opacity="0.12" stroke="#3ddc84" stroke-width="1"/>
+      <text x="55" y="16" fill="#3ddc84" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">🇧🇩 BANGLADESH</text>
+    </g>
+
+    <!-- Neon Sign: LIKHON -->
+    <g transform="translate(35, 140)">
+      <!-- Drop Blur Glow -->
+      <text x="0" y="0" fill="#3ddc84" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="4" filter="url(#glowGreen)" opacity="0.85">LIKHON</text>
+      <!-- Core Text -->
+      <text x="0" y="0" fill="#e6fffa" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" letter-spacing="4">LIKHON</text>
+      
+      <!-- Sub-tagline -->
+      <text x="2" y="32" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1">@Likhon545466 · Android &amp; Flutter</text>
+    </g>
+
+    <!-- Accent Neon Divider -->
+    <line x1="35" y1="195" x2="360" y2="195" stroke="#30363d" stroke-width="1"/>
+    <line x1="35" y1="195" x2="160" y2="195" stroke="#ff6ac1" stroke-width="2" filter="url(#glowPink)"/>
+
+    <!-- Philosophy Matrix -->
+    <g transform="translate(35, 230)" font-family="'SF Mono', Consolas, monospace" font-size="12">
+      <text x="0" y="0" fill="#8b949e">&gt; role:</text>
+      <text x="90" y="0" fill="#f0f6fc">android tinkerer · dev</text>
+
+      <text x="0" y="24" fill="#8b949e">&gt; core:</text>
+      <text x="90" y="24" fill="#38bdf8">kotlin · compose · flutter</text>
+
+      <text x="0" y="48" fill="#8b949e">&gt; focus:</text>
+      <text x="90" y="48" fill="#3ddc84">small · fast · private</text>
+
+      <text x="0" y="72" fill="#8b949e">&gt; status:</text>
+      <text x="90" y="72" fill="#ff7b72">building &amp; shipping 🚀</text>
+    </g>
+  </g>
+</svg>

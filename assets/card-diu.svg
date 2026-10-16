@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 272" width="520" height="272">
+  <defs>
+    <linearGradient id="bg_DIU_Routine_Scrapper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c12"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="518" height="270" rx="16" fill="url(#bg_DIU_Routine_Scrapper)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Tag Pill -->
+  <g transform="translate(26, 26)">
+    <rect width="172" height="22" rx="11" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <text x="86" y="15" fill="#a78bfa" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="600" text-anchor="middle">🎓 CAMPUS AUTOMATION</text>
+  </g>
+
+  <g transform="translate(420, 30)">
+          <rect width="64" height="64" rx="16" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-width="1.5"/>
+          <rect x="20" y="20" width="24" height="24" rx="4" fill="none" stroke="#a78bfa" stroke-width="2"/>
+          <line x1="20" y1="28" x2="44" y2="28" stroke="#a78bfa" stroke-width="1.5"/>
+          <line x1="28" y1="20" x2="28" y2="44" stroke="#a78bfa" stroke-width="1.5"/>
+        </g>
+
+  <!-- Title -->
+  <text x="26" y="90" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">DIU Routine Scrapper</text>
+
+  <!-- Description -->
+  <text x="26" y="122" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+    <tspan x="26" dy="0">Automated multi-sheet Excel-to-JSON routine generator.</tspan>
+    <tspan x="26" dy="20">Parses complex semester class schedules for DIU students.</tspan>
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(26, 185)">
+    <rect x="0" width="72" height="24" rx="12" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.4"/>
+<text x="36" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Python</text><rect x="80" width="88" height="24" rx="12" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.4"/>
+<text x="124" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">OpenPyXL</text><rect x="176" width="56" height="24" rx="12" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-opacity="0.4"/>
+<text x="204" y="16" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">JSON</text>
+  </g>
+
+  <!-- Bottom Divider & Action -->
+  <line x1="26" y1="228" x2="494" y2="228" stroke="#21262d" stroke-width="1"/>
+  <text x="26" y="248" fill="#7d8590" font-family="'SF Mono', Consolas, monospace" font-size="11">github.com/Likhon545466/DIU_Routine_Scrapper</text>
+  <text x="494" y="248" fill="#a78bfa" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="end">VIEW REPO →</text>
+</svg>

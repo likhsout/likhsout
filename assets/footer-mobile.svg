@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 140" width="600" height="140">
+  <rect x="1" y="1" width="598" height="138" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <g transform="translate(24, 45)">
+    <text x="0" y="0" fill="#3ddc84" font-family="'SF Mono', Consolas, monospace" font-size="15">$ exit</text>
+    <text x="0" y="28" fill="#8b949e" font-family="'SF Mono', Consolas, monospace" font-size="12">logout · thanks for stopping by · see you in the next build ✨</text>
+  </g>
+</svg>

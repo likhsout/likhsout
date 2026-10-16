@@ -19,7 +19,7 @@
   <a href="https://github.com/Likhon545466"><img src="https://img.shields.io/badge/say_hi-github-181717?style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Say hi on GitHub" /></a>
 </p>
 
-## ⚡ `$ whoami --verbose`
+
 
 Hey, I'm **Likhon** 👋 — a software developer & automation builder from Bangladesh 🇧🇩 passionate about crafting **practical campus automations**, **fast offline-first mobile apps**, and **focused developer tools**.
 

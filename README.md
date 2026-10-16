@@ -13,28 +13,43 @@
 
 <p align="center">
   <a href="https://github.com/Likhon545466/lightweight_browser/releases/latest"><img src="https://img.shields.io/github/v/release/Likhon545466/lightweight_browser?style=flat-square&label=browser&color=38bdf8&labelColor=0d1117&logo=android&logoColor=white" alt="Latest Lightweight Browser release" /></a>
-  <a href="https://retailsync-two.vercel.app"><img src="https://img.shields.io/badge/RetailSync-live-ff5ba7?style=flat-square&labelColor=0d1117&logo=vercel&logoColor=white" alt="RetailSync is live" /></a>
+  <a href="https://github.com/Likhon545466/watcher/releases/latest"><img src="https://img.shields.io/github/v/release/Likhon545466/watcher?style=flat-square&label=watcher&color=ff6ac1&labelColor=0d1117&logo=flutter&logoColor=white" alt="Latest Watcher release" /></a>
+  <a href="https://github.com/Likhon545466/cashbook/releases/latest"><img src="https://img.shields.io/github/v/release/Likhon545466/cashbook?style=flat-square&label=cashbook&color=3ddc84&labelColor=0d1117&logo=flutter&logoColor=white" alt="Latest CashBook release" /></a>
   <a href="https://github.com/Likhon545466?tab=followers"><img src="https://img.shields.io/github/followers/Likhon545466?style=flat-square&label=followers&color=3ddc84&labelColor=0d1117&logo=github" alt="Followers" /></a>
-  <a href="https://github.com/Likhon545466"><img src="https://img.shields.io/badge/say_hi-Likhon545466-181717?style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Say hi on GitHub" /></a>
+  <a href="https://github.com/Likhon545466"><img src="https://img.shields.io/badge/say_hi-github-181717?style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Say hi on GitHub" /></a>
 </p>
 
 ## ⚡ `$ getprop | grep likhon`
 
-Hey, I'm **Likhon** (a.k.a **LikhOn**) 👋 — an Android tinkerer from Bangladesh 🇧🇩 who likes software **small, fast and private**.
-I started out compiling custom ROMs and patching APKs with ReVanced. These days I build my own **Android browser in Kotlin + Jetpack Compose**, fluid mobile apps in **Flutter**, plus a bunch of **web tools & automations** that fix real, everyday bottlenecks: university routines, super shop warehouses, even offline security authenticators.
+Hey, I'm **Likhon** 👋 — an Android & Flutter craftsman from Bangladesh 🇧🇩 who likes software **small, fast, and privacy-first**.
+I build my own **Android browser in Kotlin + Jetpack Compose**, develop smooth **offline-first Flutter apps** (`Watcher`, `CashBook`), and craft **focused web utilities** & extensions that solve real problems.
+
+```properties
+# ─── /system/build.prop ──────────────────────────────────────────
+ro.product.name=Likhon
+ro.product.handle=@Likhon545466
+ro.product.locale=bn-BD,en-US
+ro.build.description=android tinkerer · flutter dev · privacy-tools
+ro.build.philosophy=lightweight,offline-first,zero-bloat
+ro.config.android_stack=kotlin,jetpack-compose,flutter,dart,room,sqlite
+ro.config.web_stack=typescript,react,tailwind,python
+persist.likhon.now_shipping=lightweight_browser
+persist.likhon.bootloader=unlocked
+persist.likhon.motto=if it runs, optimize it
+```
 
 ## 📦 `$ pm list packages --featured`
 
 <a href="https://github.com/Likhon545466/lightweight_browser">
   <picture>
     <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/card-browser-mobile.svg" />
-    <img src="./assets/card-browser.svg" width="100%" alt="Material Privacy Browser — a fast, privacy-first Android browser built with Kotlin and Jetpack Compose: browsing profiles, ad and tracker blocking, background playback, Material You, ~1.5 MB APK" />
+    <img src="./assets/card-browser.svg" width="100%" alt="Lightweight Browser — a tiny, privacy-first Android browser built with Kotlin and Jetpack Compose: multi-profile isolation, ad and tracker blocking, background playback, Material You (M3), ~2.0 MB APK" />
   </picture>
 </a>
 
 <p align="center">
-  <a href="https://github.com/Likhon545466/watcher"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-watcher.svg" /><img src="./assets/card-watcher.svg" width="49%" alt="Watcher — personal movie and series tracker with smart discovery and cloud sync built with Flutter" /></picture></a>
-  <a href="https://github.com/Likhon545466/cashbook"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-cashbook.svg" /><img src="./assets/card-cashbook.svg" width="49%" alt="CashBook — offline-first personal finance management app built with Flutter" /></picture></a>
+  <a href="https://github.com/Likhon545466/watcher"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-watcher.svg" /><img src="./assets/card-watcher.svg" width="49%" alt="Watcher — personal movie and series tracker built with Flutter with cloud backup" /></picture></a>
+  <a href="https://github.com/Likhon545466/cashbook"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-cashbook.svg" /><img src="./assets/card-cashbook.svg" width="49%" alt="CashBook — offline-first personal finance management and debt ledger built with Flutter" /></picture></a>
   <a href="https://github.com/Likhon545466/buffer-authenticator"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-2fa.svg" /><img src="./assets/card-2fa.svg" width="49%" alt="Buffer Authenticator — offline, zero-knowledge 2FA codes with Manifest V3 and WebCrypto" /></picture></a>
   <a href="https://github.com/Likhon545466/retailsync"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-retailsync.svg" /><img src="./assets/card-retailsync.svg" width="49%" alt="RetailSync — centralized super shop warehouse management system for modern trade" /></picture></a>
   <a href="https://github.com/Likhon545466/DIU_Routine_Scrapper"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-diu.svg" /><img src="./assets/card-diu.svg" width="49%" alt="DIU Routine Scrapper — automated multi-sheet Excel-to-JSON class schedule routine generator" /></picture></a>
@@ -48,10 +63,10 @@ I started out compiling custom ROMs and patching APKs with ReVanced. These days 
 | package | what it does | stack | run it |
 | :-- | :-- | :-- | :-- |
 | [`lightweight_browser`](https://github.com/Likhon545466/lightweight_browser) | Ultra-lightweight, privacy-first Android browser | Kotlin · Compose · Room | [APK](https://github.com/Likhon545466/lightweight_browser/releases/latest) |
-| [`watcher`](https://github.com/Likhon545466/watcher) | Personal movie and TV series tracker with cloud backup | Flutter · Dart | [APK](https://github.com/Likhon545466/watcher/releases) |
-| [`cashbook`](https://github.com/Likhon545466/cashbook) | Offline-first daily income, expense & debt ledger | Flutter · Dart · SQLite | [APK](https://github.com/Likhon545466/cashbook/releases) |
-| [`buffer-authenticator`](https://github.com/Likhon545466/buffer-authenticator) | Offline, zero-knowledge 2FA authenticator | TypeScript · Chrome MV3 · WebCrypto | [extension](https://github.com/Likhon545466/buffer-authenticator/releases) |
-| [`retailsync`](https://github.com/Likhon545466/retailsync) | Centralized super shop warehouse management for BD retail | React · TS · Tailwind | [visit](https://retailsync-two.vercel.app) |
+| [`watcher`](https://github.com/Likhon545466/watcher) | Personal movie and TV series tracker with cloud backup | Flutter · Dart | [APK](https://github.com/Likhon545466/watcher/releases/latest) |
+| [`cashbook`](https://github.com/Likhon545466/cashbook) | Offline-first daily income, expense & debt ledger | Flutter · Dart · SQLite | [APK](https://github.com/Likhon545466/cashbook/releases/latest) |
+| [`buffer-authenticator`](https://github.com/Likhon545466/buffer-authenticator) | Offline, zero-knowledge 2FA authenticator | TypeScript · Chrome MV3 · WebCrypto | [extension](https://github.com/Likhon545466/buffer-authenticator/releases/latest) |
+| [`retailsync`](https://github.com/Likhon545466/retailsync) | Centralized super shop warehouse management for BD retail | React · TS · Vite · Tailwind | [visit](https://retailsync-two.vercel.app) |
 | [`DIU_Routine_Scrapper`](https://github.com/Likhon545466/DIU_Routine_Scrapper) | Smart Excel-to-JSON class schedule routine generator for DIU | Python · OpenPyXL | [scripts](https://github.com/Likhon545466/DIU_Routine_Scrapper) |
 | [`Portfolio-Maker`](https://github.com/Likhon545466/Portfolio-Maker) | Minimal developer portfolio template | HTML · CSS · JS | [template](https://github.com/Likhon545466/Portfolio-Maker) |
 | [`Meterial-Finder`](https://github.com/Likhon545466/Meterial-Finder) | Material color & palette finder utility | HTML · CSS · JS | [try](https://meterial-finder.vercel.app) |

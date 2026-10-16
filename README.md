@@ -19,19 +19,7 @@
   <a href="mailto:raisulislamlikhon12@gmail.com"><img src="https://img.shields.io/badge/say_hi-email-ea4335?style=flat-square&labelColor=0d1117&logo=gmail&logoColor=white" alt="Say hi on Email" /></a>
 </p>
 
-Hey, I'm **Likhon** 👋 — a software developer & automation builder from Bangladesh 🇧🇩 passionate about crafting **practical campus automations**, **fast offline-first mobile apps**, and **focused developer tools**.
-
-My flagship project is the **DIU Routine Scrapper** — an intelligent multi-sheet Excel-to-JSON schedule parser built for Daffodil International University students. Alongside campus automation, I craft fluid **Flutter mobile apps** (`Watcher`, `CashBook`), a **privacy-first Android browser**, and modern web systems.
-
-```zsh
-┌── [ 📌 CURRENT_FOCUS ]
-│ 🔭 Active Sprint : DIU Routine Scrapper v2.4 (ICS calendar export & conflict engine)
-│ 📱 Refining      : Watcher & CashBook (Material 3 UI + Offline-first SQLite)
-│ ⚡ Core Focus    : Intelligent Campus Automations & Fluid Flutter Runtimes
-│ 💬 Ask Me About  : Excel-to-JSON parsing, Regex normalizing, Flutter & Linux
-└── [ 🟢 PIPELINE STATUS: 100% OPERATIONAL · ZERO BLOAT ]
-```
-
+Hey, I'm **Likhon** Story Ends!
 ## `Featuring...`
 
 <a href="https://github.com/Likhon545466/DIU_Routine_Scrapper">

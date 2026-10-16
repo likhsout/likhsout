@@ -25,7 +25,7 @@ Hey, I'm **Likhon** 👋 — a software developer & automation builder from Bang
 
 My flagship project is the **DIU Routine Scrapper** — an intelligent multi-sheet Excel-to-JSON schedule parser built for Daffodil International University students. Alongside campus automation, I craft fluid **Flutter mobile apps** (`Watcher`, `CashBook`), a **privacy-first Android browser**, and modern web systems.
 
-## 📦 `$ pm list packages --featured`
+## `Featuring`
 
 <a href="https://github.com/Likhon545466/DIU_Routine_Scrapper">
   <picture>

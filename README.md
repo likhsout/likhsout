@@ -23,6 +23,15 @@ Hey, I'm **Likhon** 👋 — a software developer & automation builder from Bang
 
 My flagship project is the **DIU Routine Scrapper** — an intelligent multi-sheet Excel-to-JSON schedule parser built for Daffodil International University students. Alongside campus automation, I craft fluid **Flutter mobile apps** (`Watcher`, `CashBook`), a **privacy-first Android browser**, and modern web systems.
 
+```zsh
+┌── [ 📌 CURRENT_FOCUS ]
+│ 🔭 Active Sprint : DIU Routine Scrapper v2.4 (ICS calendar export & conflict engine)
+│ 📱 Refining      : Watcher & CashBook (Material 3 UI + Offline-first SQLite)
+│ ⚡ Core Focus    : Intelligent Campus Automations & Fluid Flutter Runtimes
+│ 💬 Ask Me About  : Excel-to-JSON parsing, Regex normalizing, Flutter & Linux
+└── [ 🟢 PIPELINE STATUS: 100% OPERATIONAL · ZERO BLOAT ]
+```
+
 ## `Featuring...`
 
 <a href="https://github.com/Likhon545466/DIU_Routine_Scrapper">
@@ -43,8 +52,16 @@ My flagship project is the **DIU Routine Scrapper** — an intelligent multi-she
 
 ## 📊 `Activity & Stats`
 
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/highlights-mobile.svg" />
+  <img src="./assets/highlights.svg" width="100%" alt="Developer Highlights & Core Pillars" />
+</picture>
+
+<br/><br/>
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Likhon545466&show_icons=true&hide=contribs&show=prs_merged&bg_color=0d1117&title_color=3ddc84&icon_color=3ddc84&text_color=c9d1d9&border_color=30363d&border_radius=12&hide_rank=true&custom_title=likhon%20%2F%20stats" height="165" alt="Likhon's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Likhon545466&layout=compact&langs_count=6&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&border_color=30363d&border_radius=12&custom_title=most%20used%20languages" height="165" alt="Most Used Languages" />
   <img src="https://streak-stats.demolab.com?user=Likhon545466&background=0d1117&border=30363d&stroke=30363d&ring=3ddc84&fire=ff6ac1&currStreakNum=f0f6fc&currStreakLabel=3ddc84&sideNums=f0f6fc&sideLabels=8b949e&dates=8b949e&border_radius=12" height="165" alt="Likhon's contribution streak" />
 </p>
 
@@ -57,10 +74,12 @@ My flagship project is the **DIU Routine Scrapper** — an intelligent multi-she
 ## 🧰 `Toolbox`
 
 <p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="https://skillicons.dev/icons?i=python%2Cflutter%2Cdart%2Ckotlin%2Candroidstudio%2Csqlite%2Creact%2Cts%2Cjs%2Chtml%2Ccss%2Ctailwind%2Cvite%2Cgit%2Cgithub%2Cgithubactions%2Clinux%2Cbash%2Cwindows%2Cvscode&perline=5" />
-    <img src="https://skillicons.dev/icons?i=python,flutter,dart,kotlin,androidstudio,sqlite,react,ts,js,html,css,tailwind,vite,git,github,githubactions,linux,bash,windows,vscode&perline=10" alt="Python, Flutter, Dart, Kotlin, Android Studio, SQLite, React, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Vite, Git, GitHub, GitHub Actions, Linux, Bash, Windows, VS Code" />
-  </picture>
+  <b>🚀 Languages &amp; Core</b><br/>
+  <img src="https://skillicons.dev/icons?i=python,dart,kotlin,ts,js,html,css" alt="Languages" /><br/><br/>
+  <b>📱 Mobile &amp; Frameworks</b><br/>
+  <img src="https://skillicons.dev/icons?i=flutter,androidstudio,react,tailwind,vite" alt="Frameworks" /><br/><br/>
+  <b>🛠️ Tools, Environments &amp; Databases</b><br/>
+  <img src="https://skillicons.dev/icons?i=sqlite,git,github,githubactions,linux,bash,vscode" alt="Tools" />
 </p>
 
 ## 📡 `Say Hello to likhon`

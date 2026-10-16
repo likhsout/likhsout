@@ -4,13 +4,26 @@
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#090d16"/>
     </linearGradient>
+    <filter id="glowCard_m" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <rect x="1" y="1" width="598" height="378" rx="16" fill="url(#cbg_dium)" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="598" height="378" rx="16" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.2" filter="url(#glowCard_m)">
+    <animate attributeName="opacity" values="0.15;0.45;0.2;0.5;0.15" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
   <g transform="translate(30, 30)">
-    <rect width="180" height="24" rx="12" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.5"/>
-    <text x="90" y="16" fill="#c4b5fd" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">★ FLAGSHIP AUTOMATION</text>
+    <!-- Category Tag with Live Indicator -->
+    <g>
+      <rect width="230" height="24" rx="12" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <circle cx="14" cy="12" r="3.5" fill="#3ddc84" filter="url(#glowCard_m)">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="125" y="16" fill="#c4b5fd" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">★ FLAGSHIP · ENGINE ACTIVE</text>
+    </g>
 
     <text x="0" y="66" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800">DIU Campus Schedule Parser</text>
 

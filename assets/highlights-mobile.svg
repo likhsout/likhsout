@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 210" width="600" height="210">
+  <defs>
+    <linearGradient id="hl_bg_m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="598" height="208" rx="14" fill="url(#hl_bg_m)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Row 1 -->
+  <g transform="translate(20, 16)">
+    <rect width="265" height="80" rx="10" fill="#090d16" stroke="#30363d" stroke-width="1"/>
+    <text x="16" y="26" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700">🎓 Campus Automation</text>
+    <text x="16" y="46" fill="#8b949e" font-family="'SF Mono', Consolas, monospace" font-size="11">DIU Routine Scrapper</text>
+    <text x="16" y="64" fill="#3ddc84" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="600">● 1.4k+ Periods Parsed</text>
+  </g>
+
+  <g transform="translate(315, 16)">
+    <rect width="265" height="80" rx="10" fill="#090d16" stroke="#30363d" stroke-width="1"/>
+    <text x="16" y="26" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700">📱 Mobile Engineering</text>
+    <text x="16" y="46" fill="#8b949e" font-family="'SF Mono', Consolas, monospace" font-size="11">Watcher · CashBook</text>
+    <text x="16" y="64" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="600">● Flutter · Offline-First</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(20, 110)">
+    <rect width="265" height="80" rx="10" fill="#090d16" stroke="#30363d" stroke-width="1"/>
+    <text x="16" y="26" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700">🛡️ Privacy &amp; Security</text>
+    <text x="16" y="46" fill="#8b949e" font-family="'SF Mono', Consolas, monospace" font-size="11">Buffer 2FA · Light Browser</text>
+    <text x="16" y="64" fill="#a78bfa" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="600">● Zero-Knowledge Vault</text>
+  </g>
+
+  <g transform="translate(315, 110)">
+    <rect width="265" height="80" rx="10" fill="#090d16" stroke="#30363d" stroke-width="1"/>
+    <text x="16" y="26" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700">⚡ Dev Architecture</text>
+    <text x="16" y="46" fill="#8b949e" font-family="'SF Mono', Consolas, monospace" font-size="11">Python · Compose · Linux</text>
+    <text x="16" y="64" fill="#fbbf24" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="600">● High-Velocity Tools</text>
+  </g>
+</svg>

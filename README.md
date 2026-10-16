@@ -16,16 +16,14 @@
   <a href="https://github.com/Likhon545466/watcher/releases/latest"><img src="https://img.shields.io/github/v/release/Likhon545466/watcher?style=flat-square&label=watcher&color=ff6ac1&labelColor=0d1117&logo=flutter&logoColor=white" alt="Latest Watcher release" /></a>
   <a href="https://github.com/Likhon545466/cashbook/releases/latest"><img src="https://img.shields.io/github/v/release/Likhon545466/cashbook?style=flat-square&label=cashbook&color=3ddc84&labelColor=0d1117&logo=flutter&logoColor=white" alt="Latest CashBook release" /></a>
   <a href="https://github.com/Likhon545466?tab=followers"><img src="https://img.shields.io/github/followers/Likhon545466?style=flat-square&label=followers&color=38bdf8&labelColor=0d1117&logo=github" alt="Followers" /></a>
-  <a href="https://github.com/Likhon545466"><img src="https://img.shields.io/badge/say_hi-github-181717?style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Say hi on GitHub" /></a>
+  <a href="mailto:raisulislamlikhon12@gmail.com"><img src="https://img.shields.io/badge/say_hi-email-ea4335?style=flat-square&labelColor=0d1117&logo=gmail&logoColor=white" alt="Say hi on Email" /></a>
 </p>
-
-
 
 Hey, I'm **Likhon** 👋 — a software developer & automation builder from Bangladesh 🇧🇩 passionate about crafting **practical campus automations**, **fast offline-first mobile apps**, and **focused developer tools**.
 
 My flagship project is the **DIU Routine Scrapper** — an intelligent multi-sheet Excel-to-JSON schedule parser built for Daffodil International University students. Alongside campus automation, I craft fluid **Flutter mobile apps** (`Watcher`, `CashBook`), a **privacy-first Android browser**, and modern web systems.
 
-## `Featuring`
+## `Featuring...`
 
 <a href="https://github.com/Likhon545466/DIU_Routine_Scrapper">
   <picture>
@@ -43,51 +41,7 @@ My flagship project is the **DIU Routine Scrapper** — an intelligent multi-she
   <a href="https://github.com/Likhon545466/revanced-patches"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Likhon545466/Likhon545466/main/assets/tile-roms.svg" /><img src="./assets/card-roms.svg" width="49%" alt="Android Modding Lab — ReVanced patches, custom bytecode modifications and system tweaks" /></picture></a>
 </p>
 
-<details>
-<summary><b>📂 <code>pm list packages -a</code></b> &nbsp;·&nbsp; every public repo</summary>
-<br/>
-
-| package | what it does | stack | run it |
-| :-- | :-- | :-- | :-- |
-| [`DIU_Routine_Scrapper`](https://github.com/Likhon545466/DIU_Routine_Scrapper) ★ | Smart multi-sheet Excel-to-JSON campus schedule generator | Python · pandas · openpyxl | [scripts](https://github.com/Likhon545466/DIU_Routine_Scrapper) |
-| [`watcher`](https://github.com/Likhon545466/watcher) | Personal movie & TV series tracker with cloud backup | Flutter · Dart | [APK](https://github.com/Likhon545466/watcher/releases/latest) |
-| [`cashbook`](https://github.com/Likhon545466/cashbook) | Offline-first daily income, expense & debt ledger | Flutter · Dart · SQLite | [APK](https://github.com/Likhon545466/cashbook/releases/latest) |
-| [`buffer-authenticator`](https://github.com/Likhon545466/buffer-authenticator) | Offline, zero-knowledge 2FA authenticator (MV3) | TypeScript · WebCrypto | [extension](https://github.com/Likhon545466/buffer-authenticator/releases/latest) |
-| [`lightweight_browser`](https://github.com/Likhon545466/lightweight_browser) | Ultra-lightweight, privacy-first Android browser | Kotlin · Compose · Room | [APK](https://github.com/Likhon545466/lightweight_browser/releases/latest) |
-| [`retailsync`](https://github.com/Likhon545466/retailsync) | Super shop warehouse management for BD retail | React · TS · Vite · Tailwind | [visit](https://retailsync-two.vercel.app) |
-| [`Portfolio-Maker`](https://github.com/Likhon545466/Portfolio-Maker) | Minimal developer portfolio template | HTML · CSS · JS | [template](https://github.com/Likhon545466/Portfolio-Maker) |
-| [`Meterial-Finder`](https://github.com/Likhon545466/Meterial-Finder) | Material color & palette discovery utility | HTML · CSS · JS | [try](https://meterial-finder.vercel.app) |
-| [`revanced-patches`](https://github.com/Likhon545466/revanced-patches) *(fork)* | Android app modding, bytecode patches & feature injections | Kotlin · Smali | — |
-
-</details>
-
-<details>
-<summary><b>📜 <code>cat CHANGELOG.md</code></b> &nbsp;·&nbsp; how I got here</summary>
-<br/>
-
-```diff
-@@ 2026 · shipping & automation era @@
-+ DIU_Routine_Scrapper   smart multi-sheet routine parser & JSON engine
-+ watcher                flutter media tracker with cloud sync
-+ cashbook               offline-first personal finance ledger in flutter
-+ buffer-authenticator   offline AES-256 zero-knowledge 2FA extension
-+ lightweight_browser    kotlin + compose browser with profile isolation
-+ retailsync             modern trade warehouse system for BD retail
-
-@@ 2024 · exploration & apps era @@
-+ built offline-first mobile apps in Flutter & SQLite
-+ Chrome extensions & WebCrypto security experiments
-+ campus utility scripts & data automation
-
-@@ 2022 · init @@
-+ git init Likhon545466
-```
-
-</details>
-
-<details>
-<summary><b>📊 <code>cat /proc/likhon/stats</code></b> &nbsp;·&nbsp; numbers + the snake</summary>
-<br/>
+## 📊 `Activity & Stats`
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Likhon545466&show_icons=true&hide=contribs&show=prs_merged&bg_color=0d1117&title_color=3ddc84&icon_color=3ddc84&text_color=c9d1d9&border_color=30363d&border_radius=12&hide_rank=true&custom_title=likhon%20%2F%20stats" height="165" alt="Likhon's GitHub stats" />
@@ -100,9 +54,7 @@ My flagship project is the **DIU Routine Scrapper** — an intelligent multi-she
   <img src="https://raw.githubusercontent.com/Likhon545466/Likhon545466/output/snake-dark.svg" width="100%" alt="A snake eating Likhon's contribution graph" />
 </picture>
 
-</details>
-
-## 🧰 `$ dumpsys toolbox`
+## 🧰 `Toolbox`
 
 <p align="center">
   <picture>
@@ -111,14 +63,15 @@ My flagship project is the **DIU Routine Scrapper** — an intelligent multi-she
   </picture>
 </p>
 
-## 📡 `$ adb connect likhon`
+## 📡 `Say Hello to likhon`
 
 Got an idea for the DIU Routine Scrapper? Found a bug or want a feature in Watcher, CashBook, or Lightweight Browser? Open an issue, send a PR, or just say hi 👋
 
 <p align="left">
+  <a href="mailto:raisulislamlikhon12@gmail.com"><img src="https://img.shields.io/badge/email-raisulislamlikhon12@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" /></a>
+  <a href="https://www.instagram.com/likhsout" target="_blank"><img src="https://img.shields.io/badge/instagram-@likhsout-e4405f?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117" alt="Instagram" /></a>
   <a href="https://github.com/Likhon545466"><img src="https://img.shields.io/badge/github-Likhon545466-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub" /></a>
   <a href="https://github.com/Likhon545466/DIU_Routine_Scrapper/issues/new"><img src="https://img.shields.io/badge/suggest-routine_feature-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Suggest Routine Feature" /></a>
-  <a href="https://github.com/Likhon545466/watcher/issues/new"><img src="https://img.shields.io/badge/suggest-watcher_feature-ff6ac1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Suggest Watcher Feature" /></a>
 </p>
 
 <br/>

@@ -19,7 +19,7 @@
   <a href="mailto:raisulislamlikhon12@gmail.com"><img src="https://img.shields.io/badge/say_hi-email-ea4335?style=flat-square&labelColor=0d1117&logo=gmail&logoColor=white" alt="Say hi on Email" /></a>
 </p>
 
-Hey, I'm **Likhon** Story Ends!
+Hey, I'm **Likhon,** Story Ends!
 ## `Featuring...`
 
 <a href="https://github.com/Likhon545466/DIU_Routine_Scrapper">

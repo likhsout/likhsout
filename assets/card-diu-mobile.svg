@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="cbg_dium" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="598" height="378" rx="16" fill="url(#cbg_dium)" stroke="#30363d" stroke-width="1.5"/>
+
+  <g transform="translate(30, 30)">
+    <rect width="180" height="24" rx="12" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="90" y="16" fill="#c4b5fd" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600" text-anchor="middle">★ FLAGSHIP AUTOMATION</text>
+
+    <text x="0" y="66" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="800">DIU Campus Schedule Parser</text>
+
+    <text x="0" y="100" fill="#8b949e" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+      <tspan x="0" dy="0">Smart multi-sheet Excel-to-JSON routine generator for DIU students.</tspan>
+      <tspan x="0" dy="20">Auto-cleans complex grids, times, batches, sections &amp; teacher initials.</tspan>
+    </text>
+
+    <!-- Badges -->
+    <g transform="translate(0, 160)">
+      <rect width="78" height="26" rx="13" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="39" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">Python 3</text>
+
+      <rect x="86" width="75" height="26" rx="13" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="123" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">pandas</text>
+
+      <rect x="169" width="85" height="26" rx="13" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="211" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">openpyxl</text>
+
+      <rect x="262" width="105" height="26" rx="13" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.4"/>
+      <text x="314" y="17" fill="#d0d7de" font-family="'SF Mono', Consolas, monospace" font-size="11" text-anchor="middle">JSON Parser</text>
+    </g>
+
+    <!-- Metrics -->
+    <g transform="translate(0, 230)" font-family="'SF Mono', Consolas, monospace">
+      <text x="0" y="0" fill="#7d8590" font-size="11">SPEED</text>
+      <text x="0" y="24" fill="#a78bfa" font-size="18" font-weight="700">&lt; 0.2s</text>
+
+      <text x="120" y="0" fill="#7d8590" font-size="11">ACCURACY</text>
+      <text x="120" y="24" fill="#3ddc84" font-size="18" font-weight="700">100% Lossless</text>
+
+      <text x="240" y="0" fill="#7d8590" font-size="11">ROUTINES</text>
+      <text x="240" y="24" fill="#38bdf8" font-size="18" font-weight="700">Multi-Sheet</text>
+    </g>
+  </g>
+</svg>

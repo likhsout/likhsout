@@ -333,7 +333,7 @@
       <!-- Subtitle with Subtle Electric Pulse -->
       <text x="2" y="32" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1">
         <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
-        @Likhon545466 · Developer &amp; Builder
+        @likhsout · Developer &amp; Builder
       </text>
     </g>
 

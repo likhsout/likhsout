@@ -79,7 +79,7 @@
 
   <!-- Bottom Divider & Action with Animated Arrow -->
   <line x1="26" y1="226" x2="494" y2="226" stroke="#1e293b" stroke-width="1"/>
-  <text x="26" y="248" fill="#64748b" font-family="'SF Mono', Consolas, monospace" font-size="11">github.com/Likhon545466/buffer-authenticator</text>
+  <text x="26" y="248" fill="#64748b" font-family="'SF Mono', Consolas, monospace" font-size="11">github.com/likhsout/buffer-authenticator</text>
   
   <g transform="translate(415, 248)">
     <text x="0" y="0" fill="#38bdf8" font-family="'SF Mono', Consolas, monospace" font-size="11" font-weight="600">VIEW REPO</text>

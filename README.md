@@ -49,8 +49,8 @@ Hey, I'm **Likhon,** Story Ends!
 <br/><br/>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=likhsout&show_icons=true&hide=contribs&show=prs_merged&bg_color=0d1117&title_color=3ddc84&icon_color=3ddc84&text_color=c9d1d9&border_color=30363d&border_radius=12&hide_rank=true&custom_title=likhon%20%2F%20stats" height="165" alt="Likhon's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=likhsout&layout=compact&langs_count=6&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&border_color=30363d&border_radius=12&custom_title=most%20used%20languages" height="165" alt="Most Used Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=likhsout&show_icons=true&hide=contribs&show=prs_merged&bg_color=0d1117&title_color=3ddc84&icon_color=3ddc84&text_color=c9d1d9&border_color=30363d&border_radius=12&hide_rank=true&custom_title=likhon%20%2F%20stats" height="165" alt="Likhon's GitHub stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=likhsout&layout=compact&langs_count=6&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&border_color=30363d&border_radius=12&custom_title=most%20used%20languages" height="165" alt="Most Used Languages" />
   <img src="https://streak-stats.demolab.com?user=likhsout&background=0d1117&border=30363d&stroke=30363d&ring=3ddc84&fire=ff6ac1&currStreakNum=f0f6fc&currStreakLabel=3ddc84&sideNums=f0f6fc&sideLabels=8b949e&dates=8b949e&border_radius=12" height="165" alt="Likhon's contribution streak" />
 </p>
 

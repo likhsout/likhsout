@@ -46,10 +46,11 @@
       <animate attributeName="opacity" values="0.2;0.65;0.2" dur="2.5s" repeatCount="indefinite"/>
     </rect>
     
-    <!-- Clean Warehouse Isometric Box Icon -->
-    <path d="M 32 17 L 47 25 L 47 42 L 32 50 L 17 42 L 17 25 Z" fill="none" stroke="#fbbf24" stroke-width="2"/>
-    <path d="M 32 17 L 32 50 M 17 25 L 32 33.5 L 47 25" stroke="#fbbf24" stroke-width="1.4"/>
-    <circle cx="32" cy="33.5" r="2.8" fill="#fbbf24" filter="url(#glow_r)">
+    <!-- Clean Super Shop / Cart Icon -->
+    <path d="M 18 22 L 24 22 L 29 38 L 45 38 L 48 26 L 25 26" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="31" cy="45" r="3" fill="#fbbf24"/>
+    <circle cx="43" cy="45" r="3" fill="#fbbf24"/>
+    <circle cx="48" cy="20" r="2.8" fill="#fbbf24" filter="url(#glow_r)">
       <animate attributeName="opacity" values="1;0.4;1" dur="1.6s" repeatCount="indefinite"/>
     </circle>
   </g>

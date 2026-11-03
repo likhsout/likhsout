@@ -24,6 +24,20 @@
     <text x="77" y="14" fill="#c084fc" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="600" text-anchor="middle">🌐 PRIVACY BROWSER</text>
   </g>
 
+  <!-- Top Right Animated Badge -->
+  <g transform="translate(258, 14)">
+    <rect width="44" height="44" rx="12" fill="#161b22" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.4"/>
+    <rect width="44" height="44" rx="12" fill="none" stroke="#c084fc" stroke-width="1.2" opacity="0.3" filter="url(#glow_tm)">
+      <animate attributeName="opacity" values="0.2;0.65;0.2" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="22" cy="22" r="11" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+    <ellipse cx="22" cy="22" rx="4.8" ry="11" fill="none" stroke="#c084fc" stroke-width="1.2"/>
+    <line x1="11" y1="22" x2="33" y2="22" stroke="#c084fc" stroke-width="1.2"/>
+    <circle cx="30" cy="14" r="2" fill="#c084fc" filter="url(#glow_tm)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
   <!-- Title -->
   <text x="18" y="62" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800">Lightweight Browser</text>
 
